@@ -39,11 +39,11 @@
 
         layer_2 {
             bindings = <
-&none  &none                &none             &none     &none           &none                     &none          &none      &none             &none                        &none            &none
-&none  &kp LS(EXCLAMATION)  &kp LEFT_BRACKET  &kp HASH  &kp LS(DOLLAR)  &kp LS(N5)                &kp TILDE      &kp COLON  &kp ASTERISK      &kp LS(KP_LEFT_PARENTHESIS)  &kp LS(AT_SIGN)  &kp AMPERSAND
-&none  &none                &none             &none     &none           &none       &none  &none  &kp UNDER      &kp MINUS  &kp RIGHT_BRACE   &kp RIGHT_BRACE              &none            &none
-&none  &none                &none             &none     &none           &none       &none  &none  &kp LS(MINUS)  &kp COLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET            &kp BACKSLASH    &none
-&none  &none                &none             &none     &none           &none       &none  &none  &none          &none      &none             &none                        &none            &none
+&none           &none                &none             &none      &none             &none                            &none          &none      &none              &none                        &none            &none
+&none           &kp LS(EXCLAMATION)  &kp LEFT_BRACKET  &kp HASH   &kp LS(DOLLAR)    &kp LS(N5)                       &kp TILDE      &kp COLON  &kp ASTERISK       &kp LS(KP_LEFT_PARENTHESIS)  &kp LS(AT_SIGN)  &kp AMPERSAND
+&none           &none                &none             &none      &none             &none              &none  &none  &kp UNDER      &kp MINUS  &kp RIGHT_BRACE    &none                        &none            &none
+&kp LEFT_BRACE  &kp TILDE            &kp SEMICOLON     &kp CARET  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &none  &none  &kp LS(MINUS)  &kp COLON  &kp RIGHT_BRACKET  &none                        &kp BACKSLASH    &none
+&none           &none                &none             &none      &none             &none              &none  &none  &none          &none      &none              &none                        &none            &none
             >;
         };
 
