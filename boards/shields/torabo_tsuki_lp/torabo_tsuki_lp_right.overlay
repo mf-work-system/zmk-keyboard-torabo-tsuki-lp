@@ -3,7 +3,19 @@
 #include <dt-bindings/zmk/input_transform.h>
 
 &trackball_listener {
+    /* 通常（カーソル移動）：XY反転のみ */
     input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
+
+    /* layer3 のときだけ：スクロールのみ（カーソル移動はしない） */
+    scroll_layer3 {
+        layers = <3>;
+
+        /* XY移動 → スクロール（縦/横ホイール）へ変換 */
+        input-processors = <
+            &zip_xy_to_scroll_mapper
+            &zip_scroll_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)
+        >;
+    };
 };
 
 &size_s_transform {
