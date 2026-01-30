@@ -10,6 +10,7 @@
     scroll_layer3 {
         layers = <3>;
         input-processors = <
+            &zip_x_scaler 0 1
             &zip_xy_to_scroll_mapper
             &zip_scroll_scaler 1 8
         >;
