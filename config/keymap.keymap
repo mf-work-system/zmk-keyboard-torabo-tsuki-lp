@@ -47,7 +47,7 @@
 &kp TAB         &kp Q  &kp W  &kp E  &kp R  &kp T                                                &kp Y               &kp U  &kp I      &kp O    &kp P                 &kp RIGHT_WIN
 &kp LCTRL       &kp A  &kp S  &kp D  &kp F  &kp G               &none         &none              &kp H               &kp J  &kp K      &kp L    &kp SEMI              &kp ENTER
 &kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V  &kp B               &kp LEFT_ALT  &kp BSPC           &kp N               &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT FSLH  &kp RSHFT
-&none           &none  &none  &none  &mo 3  &lt_u 1 LANGUAGE_2  &kp SPACE     &kp RIGHT_CONTROL  &lt_u 2 LANGUAGE_1  &none  &none      &none    &none                 &tog 4
+&none           &none  &none  &none  &mo 3  &lt_u 1 LANGUAGE_2  &kp SPACE     &kp RIGHT_CONTROL  &lt_u 2 LANGUAGE_1  &none  &none      &none    &none                 &to 4
             >;
         };
 
@@ -63,11 +63,11 @@
 
         layer_2 {
             bindings = <
-&none  &none                &none             &none     &none       &none                    &none                    &none              &none              &none                 &none            &none
-&none  &kp LS(EXCLAMATION)  &kp LEFT_BRACKET  &kp HASH  &kp DOLLAR  &kp PRCNT                &kp PLUS                 &kp DOUBLE_QUOTES  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp LS(AT_SIGN)  &kp AMPERSAND
-&none  &none                &none             &none     &none       &kp CARET  &none  &none  &kp UNDER                &kp MINUS          &kp RIGHT_BRACE    &kp PIPE              &kp SEMICOLON    &none
-&none  &none                &none             &none     &none       &none      &none  &none  &kp LS(INTERNATIONAL_1)  &kp COLON          &kp RIGHT_BRACKET  &kp BACKSLASH         &none            &kp RIGHT_SHIFT
-&none  &none                &none             &none     &none       &none      &none  &none  &none                    &none              &none              &none                 &none            &none
+&none  &none                &none             &none     &none       &none                    &none                    &none              &none              &none                 &none             &none
+&none  &kp LS(EXCLAMATION)  &kp LEFT_BRACKET  &kp HASH  &kp DOLLAR  &kp PRCNT                &kp PLUS                 &kp DOUBLE_QUOTES  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp LS(AT_SIGN)   &kp AMPERSAND
+&none  &none                &none             &none     &none       &kp CARET  &none  &none  &kp UNDER                &kp MINUS          &kp RIGHT_BRACE    &kp PIPE              &kp SINGLE_QUOTE  &none
+&none  &none                &none             &none     &none       &none      &none  &none  &kp LS(INTERNATIONAL_1)  &kp COLON          &kp RIGHT_BRACKET  &kp BACKSLASH         &none             &kp RIGHT_SHIFT
+&none  &none                &none             &none     &none       &none      &none  &none  &none                    &none              &none              &none                 &none             &none
             >;
         };
 
@@ -87,7 +87,7 @@
 &kp ESCAPE      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &trans                           &trans  &trans  &trans  &trans  &trans  &trans
 &kp TAB         &kp Q         &kp W         &kp E         &kp R         &kp T      &none         &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp RCTRL       &kp A         &kp S         &kp D         &kp F         &kp G      &none         &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp Z         &kp X         &kp C         &none         &kp SPACE  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &trans  &trans  &tog 0
+&kp LEFT_SHIFT  &kp Z         &kp X         &kp C         &none         &kp SPACE  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &trans  &trans  &to 0
             >;
         };
     };
