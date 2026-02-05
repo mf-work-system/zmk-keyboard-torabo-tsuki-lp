@@ -53,21 +53,21 @@
 
         layer_1 {
             bindings = <
-&none             &none   &none      &none   &none      &none                                   &none           &none           &none           &none            &none                    &none
-&kp ESCAPE        &kp F1  &kp F2     &kp F7  &kp F8     &none                                   &bt BT_SEL 0    &none           &kp UP_ARROW    &none            &none                    &kp PRINTSCREEN
-&kp LEFT_CONTROL  &none   &mkp LCLK  &none   &mkp RCLK  &none  &none         &none              &bt BT_SEL 1    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SINGLE_QUOTE         &none
-&kp LEFT_SHIFT    &none   &mkp MB4   &none   &mkp MB5   &none  &kp LEFT_ALT  &kp DELETE         &none           &kp HOME        &none           &kp END          &kp LS(INTERNATIONAL_3)  &none
-&none             &none   &none      &none   &none      &none  &none         &kp RIGHT_CONTROL  &kp LANGUAGE_1  &none           &none           &none            &none                    &none
+&none             &none   &none      &none   &none      &none                                   &none           &none           &none           &none            &none                &none
+&kp ESCAPE        &kp F1  &kp F2     &kp F7  &kp F8     &none                                   &bt BT_SEL 0    &none           &kp UP_ARROW    &none            &none                &kp PRINTSCREEN
+&kp LEFT_CONTROL  &none   &mkp LCLK  &none   &mkp RCLK  &none  &none         &none              &bt BT_SEL 1    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SINGLE_QUOTE     &none
+&kp LEFT_SHIFT    &none   &mkp MB4   &none   &mkp MB5   &none  &kp LEFT_ALT  &kp DELETE         &none           &kp HOME        &none           &kp END          &kp INTERNATIONAL_3  &none
+&none             &none   &none      &none   &none      &none  &none         &kp RIGHT_CONTROL  &kp LANGUAGE_1  &none           &none           &none            &none                &none
             >;
         };
 
         layer_2 {
             bindings = <
-&none  &none                &none             &none     &none       &none                    &none                    &none              &none              &none                 &none                    &none
-&none  &kp LS(EXCLAMATION)  &kp LEFT_BRACKET  &kp HASH  &kp DOLLAR  &kp PRCNT                &kp PLUS                 &kp DOUBLE_QUOTES  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp LS(AT_SIGN)          &kp AMPERSAND
-&none  &none                &none             &none     &none       &kp CARET  &none  &none  &kp UNDER                &kp MINUS          &kp RIGHT_BRACKET  &kp BACKSLASH         &kp SINGLE_QUOTE         &none
-&none  &none                &none             &none     &none       &none      &none  &none  &kp LS(INTERNATIONAL_1)  &kp COLON          &kp RIGHT_BRACE    &kp PIPE              &kp LS(INTERNATIONAL_3)  &kp RIGHT_SHIFT
-&none  &none                &none             &none     &none       &none      &none  &none  &none                    &none              &none              &none                 &none                    &none
+&none  &none                &none             &none     &none       &none                    &none                    &none              &none              &none                 &none                &none
+&none  &kp LS(EXCLAMATION)  &kp LEFT_BRACKET  &kp HASH  &kp DOLLAR  &kp PRCNT                &kp PLUS                 &kp DOUBLE_QUOTES  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp LS(AT_SIGN)      &kp AMPERSAND
+&none  &none                &none             &none     &none       &kp CARET  &none  &none  &kp UNDER                &kp MINUS          &kp RIGHT_BRACKET  &kp BACKSLASH         &kp SINGLE_QUOTE     &none
+&none  &none                &none             &none     &none       &none      &none  &none  &kp LS(INTERNATIONAL_1)  &kp COLON          &kp RIGHT_BRACE    &kp PIPE              &kp INTERNATIONAL_3  &kp RIGHT_SHIFT
+&none  &none                &none             &none     &none       &none      &none  &none  &none                    &none              &none              &none                 &none                &none
             >;
         };
 
