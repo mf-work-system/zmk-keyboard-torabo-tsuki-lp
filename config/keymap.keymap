@@ -63,11 +63,11 @@
 
         layer_2 {
             bindings = <
-&none  &none                &none             &none     &none       &none                    &none                    &none              &none              &none                 &none                &none
-&none  &kp LS(EXCLAMATION)  &kp LEFT_BRACKET  &kp HASH  &kp DOLLAR  &kp PRCNT                &kp PLUS                 &kp DOUBLE_QUOTES  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp LS(AT_SIGN)      &kp AMPERSAND
-&none  &none                &none             &none     &none       &kp CARET  &none  &none  &kp UNDER                &kp MINUS          &kp RIGHT_BRACKET  &kp BACKSLASH         &kp SINGLE_QUOTE     &none
-&none  &none                &none             &none     &none       &none      &none  &none  &kp LS(INTERNATIONAL_1)  &kp COLON          &kp RIGHT_BRACE    &kp PIPE              &kp INTERNATIONAL_3  &kp RIGHT_SHIFT
-&none  &none                &none             &none     &none       &none      &none  &none  &none                    &none              &none              &none                 &none                &none
+&none           &none                &none             &none     &none       &none                    &none                    &none              &none              &none                 &none                &none
+&none           &kp LS(EXCLAMATION)  &kp LEFT_BRACKET  &kp HASH  &kp DOLLAR  &kp PRCNT                &kp PLUS                 &kp DOUBLE_QUOTES  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp LS(AT_SIGN)      &kp AMPERSAND
+&none           &none                &none             &none     &none       &kp CARET  &none  &none  &kp UNDER                &kp MINUS          &kp RIGHT_BRACKET  &kp BACKSLASH         &kp SINGLE_QUOTE     &none
+&kp LEFT_SHIFT  &none                &none             &none     &none       &none      &none  &none  &kp LS(INTERNATIONAL_1)  &kp COLON          &kp RIGHT_BRACE    &kp PIPE              &kp INTERNATIONAL_3  &kp RIGHT_SHIFT
+&none           &none                &none             &none     &none       &none      &none  &none  &none                    &none              &none              &none                 &none                &none
             >;
         };
 
