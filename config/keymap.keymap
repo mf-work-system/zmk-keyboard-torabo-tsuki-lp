@@ -31,7 +31,7 @@
         };
 
         Mouse5 {
-            bindings = <&mkp MB4>;
+            bindings = <&mkp MB5>;
             key-positions = <48 49>;
             timeout-ms = <30>;
             layers = <0>;
