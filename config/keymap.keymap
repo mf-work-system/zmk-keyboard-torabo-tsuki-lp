@@ -23,14 +23,14 @@
             layers = <0>;
         };
 
-        MB4 {
+        Mouse4 {
             bindings = <&mkp MB4>;
             key-positions = <47 48>;
             timeout-ms = <30>;
             layers = <0>;
         };
 
-        MB5 {
+        Mouse5 {
             bindings = <&mkp MB4>;
             key-positions = <48 49>;
             timeout-ms = <30>;
