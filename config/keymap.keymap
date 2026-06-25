@@ -12,28 +12,28 @@
         LMB {
             bindings = <&mkp LCLK>;
             key-positions = <33 34>;
-            timeout-ms = <50>;
+            timeout-ms = <70>;
             layers = <0>;
         };
 
         RMK {
             bindings = <&mkp RCLK>;
             key-positions = <34 35>;
-            timeout-ms = <50>;
+            timeout-ms = <70>;
             layers = <0>;
         };
 
         Mouse4 {
             bindings = <&mkp MB4>;
             key-positions = <47 48>;
-            timeout-ms = <50>;
+            timeout-ms = <70>;
             layers = <0>;
         };
 
         Mouse5 {
             bindings = <&mkp MB5>;
             key-positions = <48 49>;
-            timeout-ms = <50>;
+            timeout-ms = <70>;
             layers = <0>;
         };
 
