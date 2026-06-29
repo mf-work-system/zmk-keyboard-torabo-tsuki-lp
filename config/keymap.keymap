@@ -47,7 +47,7 @@
             bindings = <
 &none             &none   &none   &none   &none   &none                                          &none           &none           &none           &none            &none                &none
 &kp ESCAPE        &kp F1  &kp F2  &kp F7  &kp F8  &bt BT_SEL 0                                   &none           &none           &kp UP_ARROW    &none            &none                &kp PRINTSCREEN
-&kp LEFT_CONTROL  &none   &none   &none   &none   &bt BT_SEL 1  &none         &none              &kp EQUAL       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SINGLE_QUOTE     &none
+&kp LEFT_CONTROL  &none   &none   &none   &mo 5   &bt BT_SEL 1  &none         &none              &kp EQUAL       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SINGLE_QUOTE     &none
 &kp LEFT_SHIFT    &none   &none   &none   &none   &bt BT_SEL 2  &kp LEFT_ALT  &kp DELETE         &none           &kp HOME        &none           &kp END          &kp INTERNATIONAL_3  &none
 &none             &none   &none   &none   &none   &none         &none         &kp RIGHT_CONTROL  &kp LANGUAGE_1  &none           &none           &none            &none                &none
             >;
@@ -67,7 +67,7 @@
             bindings = <
 &none             &none  &none  &none  &none  &none                &none         &none         &none         &none         &none  &none
 &none             &none  &none  &none  &none  &none                &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &none
-&kp LEFT_CONTROL  &none  &none  &none  &mo 5  &none  &none  &none  &none         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none  &none
+&kp LEFT_CONTROL  &none  &none  &none  &none  &none  &none  &none  &none         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none  &none
 &none             &none  &none  &none  &none  &none  &none  &none  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &none
 &none             &none  &none  &none  &none  &none  &none  &none  &none         &none         &none         &none         &none  &to 4
             >;
